@@ -15,7 +15,7 @@ class ResumeAPITest(TestCase):
             email='john.doe@gmail.com',
             first_name='John',
             last_name='Doe'
-        )
+        )   
 
         self.resume = Resume.objects.create(
             owner=self.owner,

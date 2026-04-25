@@ -9,7 +9,7 @@ function App() {
     fetch('/api/resumes/') 
       .then(res => res.json())
       .then(data => setResumes(data))
-  }, [])
+  }, [])    
 
   return (
     <div className="container mx-auto p-4">

@@ -1,11 +1,11 @@
 name: React CI
 on:
   push:
-    branches: [ "wk06" ]
+    branches: [ "wk05" ]
     paths:
       - "frontend/**" # เฉพาะไฟล์ Frontend
   pull_request:
-    branches: [ "wk06" ]
+    branches: [ "wk05" ]
     paths:
       - "frontend/**"
 
